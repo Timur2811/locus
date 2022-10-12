@@ -13,14 +13,17 @@ body{
     display: flex;
 }
 
-.navigation p{
+.navigation a{
     margin-left: 85px;
+    text-decoration: none;
+    color: #000;
 }
 
 .sign_up button{
     width: 200px;
     height: 60px;
     background-color: #58A9A5;
+    color: #fff;
     border-width: 0px;
     border-radius: 20px;
 }
@@ -28,5 +31,124 @@ body{
 /* header end */
 /* section one start */
 
+.section_one{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 106px;
+    margin-right: 106px;
+    padding-top: 105px;
+    align-items: center;
+}
 
+.desc{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.b_text{
+    font-size: 60px;
+}
+
+.def_text{
+    font-size: 20px;
+}
+.desc button{
+    margin-top: 50px;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px 20px 20px 0px;
+    border-width: 0px;
+    background-color: #58A9A5;
+    color: #fff;
+}
+
+.img_right_side{
+    padding-left: 72px;
+}
+
+.img_right_side img{
+    width: 723px;
+    height: 723px;
+}
 /* section one end */
+
+/* section two start */
+
+
+.sec_two_title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.sec_two_title h1{
+    font-size: 60px;
+}
+
+.sec_two_title p{
+    font-size: 20px;
+    padding-left:550px;
+    padding-right: 550px;
+    padding-top: 20px;
+}
+
+
+/* .sec_two_img{
+    position: relative;
+    width: 100%;
+    padding-top: 71px;
+    display: flex;
+    
+}
+
+.sec_two_img img{
+    width: 100%;
+    height: auto;
+}
+
+.sec_two_img .btn{
+    background-color: #fff;
+    color:#FEC62D;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+} */
+
+/* section two end */
+
+/* section three start */
+
+.section_three{
+    padding-left: 160px;
+    padding-top: 150px;
+    display: flex;
+}
+
+.sec_three_text{
+    padding-left: 145px;
+    padding-right: 262px;    
+}
+
+.text_desc{
+    font-size: 40px;
+    padding-right: 260px;
+}
+
+.text_desc_2{
+    padding-top: 50px;
+    font-size: 30px;
+    padding-right: 160px;
+}
+/* section three end */
