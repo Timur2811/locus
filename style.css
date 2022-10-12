@@ -1,0 +1,32 @@
+body{
+    
+}
+
+.header{
+    align-items: center;
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation{
+    display: flex;
+}
+
+.navigation p{
+    margin-left: 85px;
+}
+
+.sign_up button{
+    width: 200px;
+    height: 60px;
+    background-color: #58A9A5;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+/* header end */
+/* section one start */
+
+
+/* section one end */
