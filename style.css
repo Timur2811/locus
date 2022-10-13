@@ -1,5 +1,7 @@
 body{
-    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
 }
 
 .header{
@@ -152,3 +154,126 @@ body{
     padding-right: 160px;
 }
 /* section three end */
+
+/* section fourth start */
+
+.fourth_section{
+    padding-top: 120px;
+    padding-left: 702px;
+    padding-right: 702px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_1{
+    font-size: 60px;
+}
+
+.under_title{
+    font-size: 20px;
+}
+
+.line_1{
+    padding-top: 51px;
+    border-bottom: 5px solid #58A9A5;
+    width: 135px;
+}
+
+.line_2{
+    padding-top: 15px;
+    border-bottom: 5px solid #58A9A5;
+    width: 135px;
+}
+/* section fourth end */
+
+/* section fifth start */
+
+.section_five{
+    padding-top: 94px;
+    padding-left: 166px;
+    padding-right: 166px;
+}
+
+.full_block{
+    display: flex;
+    justify-content: center;
+}
+
+.full_block h1{
+    font-size: 30px;
+}
+
+.full_block p{
+    font-size: 20px;
+}
+
+.first_block h1{
+    color: #58A9A5;
+}
+
+.first_block p{
+    color: #486958;
+}
+.second_block{
+    margin-left: 119px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.second_block h1{
+    color: #58A9A5;
+}
+
+.second_block p{
+    color: #486958;
+}
+
+.third_block{
+    margin-left: 119px;
+}
+
+.third_block h1{
+    color: #58A9A5;
+}
+
+.third_block p{
+    color: #486958;
+}
+/* section fifth end */
+
+/* section sixth start */
+
+.section_six{
+    padding-top: 250px;
+    padding-left: 339px;
+    padding-right: 339px;
+}
+
+.sixth_title{
+    text-align: center;
+    font-size: 45px;
+}
+
+.sixth_logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    margin-left: 90px;
+}
+
+.two{
+    margin-left: 90px;
+}
+
+.three{
+    margin-left: 90px;
+}
+/* section sixth end */
